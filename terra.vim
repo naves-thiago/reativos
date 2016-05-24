@@ -45,6 +45,10 @@ syn keyword cConstant CUSTOM_A MIC CUSTOM REC_GR SENDBS_DONE AGGREG_DONE LEADER_
 syn keyword cConstant LEADER_LOST SENDGR_DONE
 
 syn keyword cStatement getNodeId
+
+" Terra types
+syn keyword cType ushort ubyte
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " It's easy to accidentally add a space after a backslash that was intended
