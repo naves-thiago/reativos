@@ -42,12 +42,15 @@ syn keyword cConstant REQ_PORT_B CFG_INT_A CFG_INT_B REQ_CUSTOM_A REQ_MIC
 syn keyword cConstant BEEP REQ_CUSTOM SEND_BS SEND_GR AGGREG
 syn keyword cConstant ERROR TEMP PHOTO VOLTS PORT_A PORT_B INT_A INT_B CUSTOM_A_ID
 syn keyword cConstant CUSTOM_A MIC CUSTOM REC_GR SENDBS_DONE AGGREG_DONE LEADER_NEW
-syn keyword cConstant LEADER_LOST SENDGR_DONE
+syn keyword cConstant LEADER_LOST SENDGR_DONE Q_READY
 
-syn keyword cStatement getNodeId
+syn keyword cStatement getNodeId qPut qGet qSize qClear random getTime setRFPower
 
 " Terra types
-syn keyword cType ushort ubyte
+syn keyword cType ushort ubyte ulong
+
+" Terra operators
+syn keyword cOperator inc
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
